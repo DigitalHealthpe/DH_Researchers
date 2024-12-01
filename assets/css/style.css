@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+#articles {
+    margin-top: 20px;
+    max-width: 100%; /* Ensure the container adapts to the screen width */
+}
+
+.article {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.article-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.article-title:hover {
+    text-decoration: underline;
+}
+
+.authors, .journal, .pmid {
+    margin: 5px 0;
+}
+
+.citations {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #articles {
+        padding: 0 15px; /* Add padding for smaller screens */
+    }
+
+    .article {
+        padding: 8px 0;
+    }
+
+    .article-title {
+        font-size: 16px;
+    }
+
+    .citations {
+        flex-direction: column;
+        gap: 8px;
+        align-items: flex-start;
+    }
+
+    .authors, .journal, .pmid {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .article-title {
+        font-size: 14px;
+        color: #003d80; /* Slightly darker for better contrast */
+    }
+
+    .authors, .journal, .pmid {
+        font-size: 12px;
+    }
+
+    .citations {
+        gap: 5px;
+    }
+}

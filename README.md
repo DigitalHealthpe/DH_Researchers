@@ -26,7 +26,7 @@ This project is developed by **Digital Health Research Center**, a subsidiary of
 ## Installation
 
 1. **Download the Plugin**:
-   - Visit [Digital Health's official website]([https://research.digitalhealth.pe/researcher-plugins/) to download the latest version of the plugin.
+   - Visit [Digital Health's official website](https://research.digitalhealth.pe/researcher-plugins/) to download the latest version of the plugin.
    - Alternatively, clone the repository:
      ```bash
      git clone https://github.com/DigitalHealthpe/DH_Researchers.git
